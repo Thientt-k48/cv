@@ -1,9 +1,12 @@
 body {
-    background-color: #303030 ;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-red-christmas-background-display-board-decorationchristmas-background-illustrationchristmas-image_81959.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     padding: 0px;
     margin: 0px;
     display: grid;
-    place-items: left;
+    place-items: center;
     min-height: 0vh;
 }
 .box {
@@ -12,7 +15,7 @@ body {
     height: 400px;
     border-radius: 20px;
     display: grid ;
-    place-items: left ;
+    place-items: center ;
     overflow: hidden;
 }
 
